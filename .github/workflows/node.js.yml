@@ -21,5 +21,7 @@ jobs:
       with:
         node-version: '14'
         cache: 'npm'
-    - run: cd bulletin-board-app & npm install
+    - run: | 
+        cd bulletin-board-app  
+        npm install
     
