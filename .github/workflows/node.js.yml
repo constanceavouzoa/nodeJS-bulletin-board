@@ -19,6 +19,7 @@ jobs:
     - name: Use nodejs
       uses: actions/setup-node@v3
       with:
+        node-version: '14'
         cache: 'npm'
-    - run: npm install
+    - run: cd bulletin-board-app & npm install
     
