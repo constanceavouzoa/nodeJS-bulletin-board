@@ -19,6 +19,7 @@ jobs:
     - name: Use nodejs
       uses: actions/setup-node@v3
       with:
+        cache-dependency-path: bulletin-board-app/package-lock.json
         node-version: '14'
         cache: 'npm'
     - run: | 
